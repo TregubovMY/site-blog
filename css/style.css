@@ -311,7 +311,7 @@ section {
     height: 576px;
     border-radius: 4px;
 
-    background: url("/img/cotege.jpg") 10% 1% no-repeat;
+    background: url("../img/cotege.jpg") 10% 1% no-repeat;
     background-attachment: fixed;
 }
 
@@ -329,7 +329,7 @@ section {
     width: 384px;
     height: 384px;
     border-radius: 4px;
-    background: url("/img/cards1.jpeg") 10% no-repeat;
+    background: url("../img/cards1.jpeg") 10% no-repeat;
     background-size: cover;
     background-attachment: fixed;
     justify-self: end;
@@ -340,7 +340,7 @@ section {
     width: 384px;
     height: 384px;
     border-radius: 4px;
-    background: url("/img/cards2.jpg") no-repeat;
+    background: url("../img/cards2.jpg") no-repeat;
     /* background-size: cover; */
     background-attachment: fixed;
 }
@@ -438,7 +438,7 @@ section {
     width: 384px;
     height: 489px;
     border-radius: 4px;
-    background: url("/img/13_photo-1551927411-95e412943b58-1.jpeg") -100px no-repeat;
+    background: url("../img/13_photo-1551927411-95e412943b58-1.jpeg") -100px no-repeat;
     background-attachment: fixed;
 }
 
@@ -447,7 +447,7 @@ section {
     width: 384px;
     height: 489px;
     border-radius: 4px;
-    background: url("/img/rutineee.jpg") no-repeat;
+    background: url("../img/rutineee.jpg") no-repeat;
     background-attachment: fixed;
 }
 
@@ -611,13 +611,13 @@ section {
 /* Стрелка влево */
 .slick-arrow.slick-prev {
     left: 0;
-    background: url(/img/sl-arrow_r.png) 0 0 / 100% no-repeat;
+    background: url(../img/sl-arrow_r.png) 0 0 / 100% no-repeat;
 }
 
 /* Стрелка вправо */
 .slick-arrow.slick-next {
     right: 0;
-    background: url(/img/sl-arrow_l.png) 0 0 / 100% no-repeat;
+    background: url(../img/sl-arrow_l.png) 0 0 / 100% no-repeat;
 }
 
 /* Точки (булиты) */
