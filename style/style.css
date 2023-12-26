@@ -17,6 +17,8 @@ body {
 ::after,
 ::before {
     box-sizing: border-box;
+    padding: 0 0;
+    margin: 0;
 }
 
 p,
@@ -33,7 +35,7 @@ h6 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 0;
+    padding: 0;
 }
 
 .title {
@@ -90,7 +92,6 @@ section {
 
 .header_logo {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
@@ -215,6 +216,10 @@ section {
     bottom: -2px;
 }
 
+/*  */
+
+/*  */
+
 /* Ferst section (Reservation)*/
 .Reservation {
     position: relative;
@@ -233,7 +238,7 @@ section {
 .offset {
     position: absolute;
     display: flex;
-    left: 50%;
+    left: 51%;
     top: 0;
 }
 
@@ -475,8 +480,10 @@ section {
 
 .accordion_item.active .accordion__content {
     max-height: 350px;
-    padding: 24px 36px 36px;
-    transition: max-height .5s ease, padding .5s ease;
+    padding-bottom: 20px;
+
+    
+    transition: all .5s ease, padding .5s ease;
     cursor: default;
 }
 
@@ -529,8 +536,9 @@ section {
     left: 12.5px;
     z-index: 2;
 
-    transform: translateY(-50%) rotate(135deg);
+    transition: all 0.8s ease;
 
+    transform: translateY(-50%) rotate(135deg);
 }
 
 .accordion__header {
@@ -557,7 +565,7 @@ section {
     font-size: 18px;
     line-height: 150%;
     max-height: 0;
-    transition: max-height .5s ease, padding .5s ease;
+    transition: all .5s ease, padding .5s ease;
 
 
     color: #848FAC;
@@ -891,6 +899,9 @@ ul.slick-dots {
         top: 100%;
         left: 0%;
 
+    }
+    .header-bt{
+        display: none;
     }
 
     .nav.active {
